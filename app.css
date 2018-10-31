@@ -3,19 +3,6 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
-/* .blurb h2 {
-   color: #EA1C2C;
-   font-weight: 100;
-   font-size: 2.5rem;
-}
-
-.blurb p {
-    color: #f498b8;
-    font-weight: 100;
-    font-size: 1.125rem;
-    line-height: 2;
-} */
-
 /* .content {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -49,13 +36,29 @@ body {
 } */
 
 /* ====================================================================
-                            H2
+                            HEADERS
 =======================================================================*/
 
-h2{
+.first-title{
     text-shadow: 9px 9px 10px rgba(223, 10, 46, 0.63);
     font-size: 1.7rem;
 }
+.tlaxcalli h2{
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+/* ====================================================================
+                            PARAGRAPHS
+=======================================================================*/
+
+.tlaxcalli p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+} 
 
 /* ====================================================================
                             MEDIA QUERY
